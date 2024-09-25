@@ -160,7 +160,7 @@ p {
 }
 
 .animate-logo {
-  animation: translate-expand 1.7s ease-in-out forwards;
+  animation: translate-expand 3s ease-in-out forwards;
 }
 
 @keyframes translate-expand {
@@ -168,15 +168,15 @@ p {
     transform: translate(0, 0) scale(1);
   }
 
-  49% {
+  24% {
     transform: translate(0, 100%) scale(1);
   }
 
-  50% {
+  25% {
     transform: translate(0, 100%) scale(1);
   }
 
   100% {
-    transform: translate(0, 100%) scale(3);
+    transform: translate(0, 100%) scale(100);
   }
 }
