@@ -11,7 +11,7 @@ const LandingPage = () => {
   const [isClicked, setIsClicked] = useState(false); // Track click state
 
   const reDirect = () => {
-    window.open("https://www.geeksforgeeks.org/", "_self");
+    window.open("https://www.acespvgcoet.in/", "_self");
   };
 
   const handleClick = () => {
