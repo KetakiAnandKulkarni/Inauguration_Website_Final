@@ -10,6 +10,7 @@ body {
   padding: 50px;
   position: relative;
   z-index: 1;
+  height: 100vh;
   /* Ensure content is above the background */
 }
 
@@ -70,7 +71,8 @@ h1 {
   color: #fff;
   /* Improved contrast */
   font-size: 3em;
-  margin: 0;
+  margin: 20px;
+  padding: 20px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   /* Enhance readability */
 }
